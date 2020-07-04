@@ -1,6 +1,6 @@
-<p align="center"><img src="https://res.cloudinary.com/dens-lab/image/upload/v1569598754/Version_pzs4sl.png" width="400"></p>
+<p align="center"><img src="https://res.cloudinary.com/dens-lab/image/upload/v1593840157/banner2_sbnvsy.png" width="400"></p>
 
-## Tentang Dens-CMS
+## Tentang Project Polaris
 
 Project Polaris adalah sebuah Website Travel Photography yang menggunakan **Laravel** sebagai Backend, menggunakan **ReactJS** sebagai framework antarmuka pengguna (User Interface) dan menggunakan **Bootstrap** sebagai CSS library. Apa saja sih fitur yang akan di kembangkan pada Project Polaris ini? Diantaranya:
 
