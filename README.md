@@ -27,6 +27,10 @@ Untuk memulai pengembangan, diperlukan software utama dan penunjang agar para pe
 - Browser > **[Chrome](https://www.google.com/chrome/)** / **[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/)**
 - Virtual Machine > **[VirtualBox](https://www.virtualbox.org/wiki/Downloads)** Dengan Linux Server (Opsional)
 
+## Node Module Yang Digunakan (Sejauh Ini)
+- **react-router-dom**
+- **node-sass**
+
 ## Kontribusi
 
 Terima kasih atas bantuan dan pengembangan yang telah di berikan, nantinya saat aplikasi ini sudah memasuki tahap BETA, akan dibuat dokumentasi penggunaan dan perbaikan _(maintenance)_ pada update README.md yang akan datang. _**STAY TUNE!**_
