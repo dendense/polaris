@@ -45,9 +45,27 @@
 @import "print";
 
 section {
+    margin-top: 70px;
     margin-bottom: 70px;
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.img-contain {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .card {
     height: 100%;
+
+    .img-wrapper {
+        height: 100%;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
 }
