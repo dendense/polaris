@@ -46,16 +46,18 @@
 
 
 .container-flex {
+    margin: 0 auto;
+    padding: 0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
 }
 
 .img-cover {
     object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-.img-contain {
-    object-fit: contain;
     height: 100%;
     width: 100%;
 }
@@ -65,7 +67,6 @@
 
     .img-wrapper {
         height: 100%;
-        margin-bottom: 0;
         overflow: hidden;
     }
 }
