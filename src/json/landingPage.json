@@ -29,7 +29,7 @@
       "_id": "asd1293uasdads1",
       "name": "The People House",
       "type": "Hotel",
-      "imageUrl": "/images/6.png",
+      "imageUrl": "/images/6.jpg",
       "country": "Indonesia",
       "city": "Bogor",
       "price": "52",
@@ -69,12 +69,43 @@
       "_id": "asd1293uasdads1",
       "name": "Jung Hook Sie",
       "type": "Apartment",
+      "imageUrl": "/images/4.jpg",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
+      "imageUrl": "/images/4.jpg",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
+      "imageUrl": "/images/4.jpg",
+      "country": "South Korea",
+      "city": "Seoul Flore",
+      "price": "80",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Jung Hook Sie",
+      "type": "Apartment",
       "imageUrl": "/images/5.jpg",
       "country": "South Korea",
       "city": "Seoul Flore",
       "price": "80",
       "unit": "night"
     }
+    
   ],
   "categories": [
     {

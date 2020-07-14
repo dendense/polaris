@@ -44,9 +44,9 @@
 @import "utilities";
 @import "print";
 
-section {
-    margin-top: 70px;
-    margin-bottom: 70px;
+
+.container-flex {
+    display: flex;
 }
 
 .img-cover {
