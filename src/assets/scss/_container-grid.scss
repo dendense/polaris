@@ -1,3 +1,23 @@
+.cols {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+@supports (display: grid) or (display: -ms-grid) {
+    .grid-area {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: 250px;
+        justify-content: center;
+    }
+    .col {
+        width: 100%;
+        height: 100%;
+        float: none;
+      }
+}
+
+
 .container-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -10,10 +30,6 @@
         grid-auto-rows: minmax(245px, auto);
         row-gap: 10px;
         column-gap: 10px;
-    }
-
-    .no-grid-gutters {
-        padding: 0;
     }
 
     .item {
@@ -63,6 +79,10 @@
 
         &.column-12 {
             grid-column: span 12;
+        }
+
+        &.column-st-2 {
+            grid-column-start: span 2;
         }
 
         &.row-1 {

@@ -46,8 +46,8 @@
 
 
 .container-flex {
-    margin: 0 auto;
-    padding: 0;
+    margin: 80;
+    padding: 80;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@
 
 .card {
     height: 100%;
-
+    
     .img-wrapper {
         height: 100%;
         overflow: hidden;

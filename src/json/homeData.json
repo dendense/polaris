@@ -1,0 +1,55 @@
+{
+    "homePict": [
+        {
+            "_id": "1",
+            "title": "Title",
+            "desc": "Lorem Ipsum",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/1.jpg"
+        },
+        {
+            "_id": "2",
+            "title": "Title",
+            "desc": "Lorem Ipsum",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/2.jpg"
+        },
+        {
+            "_id": "3",
+            "title": "Title",
+            "desc": "Lorem Ipsum",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/3.jpg"
+        },
+        {
+            "_id": "4",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/4.jpg"
+        },
+        {
+            "_id": "5",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/5.jpg"
+        },
+        {
+            "_id": "6",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/6.jpg"
+        },
+        {
+            "_id": "7",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/7.jpg"
+        },
+        {
+            "_id": "8",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/8.jpg"
+        },
+        {
+            "_id": "9",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/9.jpg"
+        }
+    ]
+}

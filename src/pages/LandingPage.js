@@ -9,7 +9,7 @@ export default class LandingPage extends Component {
   render() {
       console.log(this.props);
     return (
-      <FrontPage data={landingPage.mostPicked}/>
+      <FrontPage/>
     );
   }
 }
