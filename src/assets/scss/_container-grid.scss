@@ -1,6 +1,19 @@
+.grid-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
 .cols {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+.col {
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin: 0;
 }
 
 @supports (display: grid) or (display: -ms-grid) {
@@ -10,11 +23,28 @@
         grid-auto-rows: 250px;
         justify-content: center;
     }
+
     .col {
         width: 100%;
         height: 100%;
         float: none;
-      }
+    }
+
+    .grid-1 {
+        grid-column-end: span 2;
+    }
+
+    .grid-3 {
+        grid-row-end: span 2;
+    }
+
+    .grid-5 {
+        grid-column-end: span 2;
+    }
+
+    .grid-7 {
+        grid-column-end: span 2;
+    }
 }
 
 

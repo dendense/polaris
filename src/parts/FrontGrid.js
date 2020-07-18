@@ -1,56 +1,22 @@
 import React from "react";
 import Button from "elements/Button";
-import data from 'json/homeData'
+import data from 'json/homeData';
 
 export default function FrontGrid(props) {
   return (
-    <div className="container">
+    <div className="grid-container">
       <section className="cols grid-area">
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
-        <div className="card">
-          <div className="img-wrapper">
-            <img src="" alt="Polaris Project" className="img-cover" />
-          </div>
-        </div>
+        {
+          data.homePict.map((homepict, index) => {
+            return (
+              <>
+                <div className={homepict.grid}>
+                  <img src={homepict.imgUrl} alt={homepict.alt} className="img-cover" />
+                </div>
+              </>
+            );
+          })
+        }
       </section>
     </div>
   );
