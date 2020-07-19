@@ -1,19 +1,5 @@
-.grid-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 60px;
-}
-
-.cols {
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
-.col {
-    width: 25%;
-    height: 250px;
-    float: left;
-    margin: 0;
+.main-front {
+    display: flex;
 }
 
 @supports (display: grid) or (display: -ms-grid) {
@@ -21,13 +7,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-auto-rows: 250px;
-        justify-content: center;
-    }
-
-    .col {
-        width: 100%;
-        height: 100%;
-        float: none;
     }
 
     .grid-1 {
@@ -35,7 +14,7 @@
     }
 
     .grid-3 {
-        grid-row-end: span 2;
+        grid-row-end: span 1;
     }
 
     .grid-5 {

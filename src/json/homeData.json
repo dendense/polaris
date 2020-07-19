@@ -29,6 +29,12 @@
             "alt": "Polaris Featured",
             "imgUrl": "/images/11.jpg",
             "grid": " grid-2"
+        },
+        {
+            "_id": "9",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/11.jpg",
+            "grid": " grid-3"
         }
     ]
 }
