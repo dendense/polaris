@@ -43,6 +43,18 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+
+.brand-text-icon {
+    font-size: 5em;
+    font-weight: 400;
+    font-family: "Autour One", sans-serif;
+    color: $primary;
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
 
 .img-cover {
     object-fit: cover;

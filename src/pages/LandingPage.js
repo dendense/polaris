@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Button from "elements/Button";
 
 import FrontPage from 'parts/FrontGrid'
-import TestGrid from 'parts/TestGrid'
+import TestGrid from 'parts/IconText'
 import landingPage from 'json/landingPage.json'
 
 export default class LandingPage extends Component {
