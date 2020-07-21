@@ -43,13 +43,13 @@
 @import "spinners";
 @import "utilities";
 @import "print";
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 .brand-text-icon {
     font-size: 5em;
     font-weight: 400;
-    font-family: "Autour One", sans-serif;
-    color: $primary;
+    font-family: "Abel", sans-serif;
+
     &:hover {
         color: $primary;
         text-decoration: none;
@@ -60,4 +60,9 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.faded:hover {
+    transition: .5s ease;
+    opacity: 0.5;
 }

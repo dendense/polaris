@@ -13,15 +13,15 @@ import pict7 from 'assets/images/2.jpg';
 export default function FrontGrid(props) {
   return (
     <div class="grid-area">
-      <div class="grd grid-1"><img src={pict3} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-2"><img src={pict2} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-2"><img src={pict1} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-3"><img src={pict5} alt="polaris" className="img-cover"/></div>
-      <div class="grid-4"><div class="text-hero"><IconText/></div></div>
-      <div class="grd grid-2"><img src={pict7} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-2"><img src={pict4} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-2"><img src={pict6} alt="polaris" className="img-cover"/></div>
-      <div class="grd grid-5"><img src={pict3} alt="polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-1"><img src={pict3} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-2"><img src={pict2} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-2"><img src={pict1} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-3"><img src={pict5} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-4"><div class="text-hero"><IconText/></div></div>
+      <div class="img-wrapper grid-2"><img src={pict7} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-2"><img src={pict4} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-2"><img src={pict6} alt="Polaris" className="img-cover"/></div>
+      <div class="img-wrapper grid-5"><img src={pict3} alt="Polaris" className="img-cover"/></div>
     </div>
   );
 }

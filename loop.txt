@@ -1,0 +1,11 @@
+{
+          data.homePict.map((homepict, index) => {
+            return (
+              <>
+                <div className="">
+                  <img src={homepict.imgUrl} alt={homepict.alt} className="img-cover" />
+                </div>
+              </>
+            );
+          })
+        }
