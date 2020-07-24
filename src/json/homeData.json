@@ -3,44 +3,56 @@
         {
             "_id": "5",
             "alt": "Polaris Featured",
-            "imgUrl": "/images/12.jpg",
-            "grid": " grid-3"
+            "imgUrl": "/images/13.jpg",
+            "grid": " grid-1"
         },
         {
             "_id": "6",
             "alt": "Polaris Featured",
             "imgUrl": "/images/14.jpg",
-            "grid": " grid-6"
+            "grid": " grid-2"
         },
         {
             "_id": "7",
             "alt": "Polaris Featured",
-            "imgUrl": "/images/13.jpg",
-            "grid": " grid-7"
+            "imgUrl": "/images/12.jpg",
+            "grid": " grid-2"
         },
         {
             "_id": "8",
             "alt": "Polaris Featured",
-            "imgUrl": "/images/10.jpg",
-            "grid": " grid-1"
+            "imgUrl": "/images/11.jpg",
+            "grid": " grid-3"
         },
         {
             "_id": "9",
             "alt": "Polaris Featured",
             "imgUrl": "/images/11.jpg",
+            "grid": " grid-4"
+        },
+        {
+            "_id": "9",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/2.jpg",
             "grid": " grid-2"
         },
         {
             "_id": "9",
             "alt": "Polaris Featured",
-            "imgUrl": "/images/11.jpg",
-            "grid": " grid-3"
+            "imgUrl": "/images/1.jpg",
+            "grid": " grid-2"
         },
         {
             "_id": "9",
             "alt": "Polaris Featured",
-            "imgUrl": "/images/11.jpg",
-            "grid": " grid-3"
+            "imgUrl": "/images/7.jpg",
+            "grid": " grid-2"
+        },
+        {
+            "_id": "9",
+            "alt": "Polaris Featured",
+            "imgUrl": "/images/13.jpg",
+            "grid": " grid-5"
         }
     ]
 }
