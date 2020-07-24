@@ -1,55 +1,55 @@
 {
     "homePict": [
         {
-            "_id": "5",
+            "_id": 1,
             "alt": "Polaris Featured",
             "imgUrl": "/images/13.jpg",
             "grid": " grid-1"
         },
         {
-            "_id": "6",
+            "_id": 2,
             "alt": "Polaris Featured",
             "imgUrl": "/images/14.jpg",
             "grid": " grid-2"
         },
         {
-            "_id": "7",
+            "_id": 3,
             "alt": "Polaris Featured",
             "imgUrl": "/images/12.jpg",
             "grid": " grid-2"
         },
         {
-            "_id": "8",
+            "_id": 4,
             "alt": "Polaris Featured",
             "imgUrl": "/images/11.jpg",
             "grid": " grid-3"
         },
         {
-            "_id": "9",
-            "alt": "Polaris Featured",
-            "imgUrl": "/images/11.jpg",
+            "_id": 5,
+            "alt": "",
+            "imgUrl": "",
             "grid": " grid-4"
         },
         {
-            "_id": "9",
+            "_id": 6,
             "alt": "Polaris Featured",
             "imgUrl": "/images/2.jpg",
             "grid": " grid-2"
         },
         {
-            "_id": "9",
+            "_id": 7,
             "alt": "Polaris Featured",
             "imgUrl": "/images/1.jpg",
             "grid": " grid-2"
         },
         {
-            "_id": "9",
+            "_id": 8,
             "alt": "Polaris Featured",
             "imgUrl": "/images/7.jpg",
             "grid": " grid-2"
         },
         {
-            "_id": "9",
+            "_id": 9,
             "alt": "Polaris Featured",
             "imgUrl": "/images/13.jpg",
             "grid": " grid-5"
