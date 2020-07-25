@@ -27,15 +27,14 @@ export default function FrontGrid(props) {
             </Button>
         </div>
       </section>
-      <section className="icon-container">
+      {/* <section className="icon-container">
         <div className="icon-btn">
-          <IconText/>
+          <IconText />
         </div>
-      </section>
+      </section> */}
       <div className="grid-area">
         {
           props.data.map((homepict, index) => {
-
             return (
               <div key={`${index}`} className={"img-wrapper" + homepict.grid}>
                 <img src={homepict.imgUrl} alt={homepict.alt} className="img-cover" />

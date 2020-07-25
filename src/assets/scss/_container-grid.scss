@@ -56,16 +56,25 @@
         }
     }
 
+    // width: 100%;
+    //     height: auto;
+    //     padding: 15px;
+    //     display: flex;
+    //     flex-direction: row-reverse;
+    //     box-sizing: border-box;
+    //     position: absolute;
+    //     z-index: 2;
+        
     .login-container {
-        width: 100%;
+        width: auto;
         height: auto;
-        padding: 15px;
-        display: flex;
-        flex-direction: row-reverse;
+        right: 0px;
+        padding-top: 15px;
+        padding-right: 15px;
         box-sizing: border-box;
         position: absolute;
         z-index: 2;
-
+        
         .log-btn {
             display: flex;
             justify-content: center;
@@ -113,6 +122,7 @@
         box-sizing: border-box;
         position: absolute;
         z-index: 4;
+        overflow: hidden;
 
         .icon-btn {
             margin: auto;
