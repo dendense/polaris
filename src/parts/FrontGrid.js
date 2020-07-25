@@ -27,11 +27,11 @@ export default function FrontGrid(props) {
             </Button>
         </div>
       </section>
-      {/* <section className="icon-container">
+      <section className="icon-container">
         <div className="icon-btn">
           <IconText />
         </div>
-      </section> */}
+      </section>
       <div className="grid-area">
         {
           props.data.map((homepict, index) => {
