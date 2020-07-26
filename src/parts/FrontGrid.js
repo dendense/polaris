@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "elements/Button";
+import Modal from 'elements/Modal'
 import IconText from './IconText.js';
 
 export default function FrontGrid(props) {
@@ -10,10 +11,12 @@ export default function FrontGrid(props) {
           <Button
             type="link"
             className="btn btn-primary text-white"
+            data-toggle="modal"
+            data-target={Modal}
             href={`/properties/`}
           >
             Log In / Sign Up
-            </Button>
+          </Button>
         </div>
       </section>
       <section className="faq-container">
@@ -24,7 +27,7 @@ export default function FrontGrid(props) {
             href={`/properties/`}
           >
             Terms &amp; Conditions
-            </Button>
+          </Button>
         </div>
       </section>
       <section className="icon-container">
