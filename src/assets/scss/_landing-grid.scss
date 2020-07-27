@@ -1,12 +1,19 @@
 @supports (display: grid) or (display: -ms-grid) {
+    .container-grid {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+
     .grid-area {
         display: grid;
         width: 100%;
         height: 100vh;
         margin: auto;
         padding: 10px;
-        grid-template-columns: repeat(4, minmax(150px, 1fr));
-        grid-template-rows: repeat(4, minmax(150px, 1fr));
+        box-sizing: border-box;
+        grid-template-columns: repeat(4, minmax(100px, 1fr));
+        grid-template-rows: repeat(4, minmax(100px, 1fr));
         gap: 5px;
         z-index: 1;
         // grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -64,7 +71,7 @@
     //     box-sizing: border-box;
     //     position: absolute;
     //     z-index: 2;
-        
+
     .login-container {
         width: auto;
         height: auto;
@@ -73,7 +80,7 @@
         box-sizing: border-box;
         position: absolute;
         z-index: 2;
-        
+
         .log-btn {
             display: flex;
             justify-content: center;
@@ -105,7 +112,6 @@
             color: $white;
 
             Button:hover {
-                color: $primary;
                 text-decoration: none;
             }
         }

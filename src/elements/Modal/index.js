@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import propTypes from 'prop-types'
 
-export default function index(props) {
+const Modal = ({ handleClose, show, children }) => {
+    const showHideClassName = show ? "modal display-block" : "modal display-none";
     return (
-        <div>
-            
+        <div className={showHideClassName}>
+            <section className="modal-main">
+                {children}
+                <button onClick={handleClose}>close</button>
+            </section>
         </div>
     )
 }
+
+export default Modal;
