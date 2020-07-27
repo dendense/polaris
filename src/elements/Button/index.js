@@ -11,8 +11,8 @@ export default function Button(props) {
   if (props.hasShadow) className.push("btn-primary")
 
   const onClick = () => {
-    if (props.onClick) props.onClick()
-  }
+    if (props.onClick) props.onClick();
+  };
 
   if (props.isDisabled || props.isLoading) {
     if (props.isDisabled) className.push("disabled")
@@ -48,7 +48,8 @@ export default function Button(props) {
         <Link
           to={props.href}
           className={className.join(" ")}
-          style={props.style} onClick={onclick}
+          style={props.style} 
+          onClick={onClick}
         >
           {props.children}
         </Link>
@@ -61,7 +62,7 @@ export default function Button(props) {
       to={props.href}
       className={className.join(" ")}
       style={props.style}
-      onClick={onclick}
+      onClick={onClick}
     >
       {props.children}
     </button>
@@ -80,6 +81,5 @@ Button.propTypes = {
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
   isExternal: propTypes.bool,
-  hasHadow: propTypes.bool,
-
+  hasHadow: propTypes.bool
 }

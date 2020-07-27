@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "elements/Button";
-import Modal from "elements/Modal";
 
 export default function FrontGrid(props) {
   return (

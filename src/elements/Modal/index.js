@@ -1,16 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-const Modal = ({ handleClose, show, children }) => {
-    const showHideClassName = show ? "modal display-block" : "modal display-none";
-    return (
-        <div className={showHideClassName}>
-            <section className="modal-main">
-                {children}
-                <button onClick={handleClose}>close</button>
-            </section>
-        </div>
-    )
+import React from "react";
+export default class Modal extends React.Component {
+  render() {
+    if(!this.props.show){
+        return null;
+    }  
+    return <div>{this.props.children}</div>;
+  }
 }
-
-export default Modal;
