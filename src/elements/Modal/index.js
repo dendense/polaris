@@ -1,39 +1,55 @@
-import React from 'react'
-import Button from 'elements/Button';
+import React from "react";
+import Button from "elements/Button";
+import "./index.css";
 
 const Modal = ({ handleClose, show, children, headModal }) => {
-  const showHideClassName = show ? "modal display-block" : "modal display-none";
-  
+  const showHideClassName = show ? "modal d-block" : "modal d-none";
+
   return (
     <div
-      className={showHideClassName + `fade`}
-      id="staticBackdrop"
-      data-backdrop="static"
-      data-keyboard="false"
+      className={showHideClassName}
+      id="exampleModal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="staticBackdropLabel"
+      aria-labelledby="exampleModalLabel"
       aria-hidden="true"
+      data-backdrop="static"
+      data-keyboard="false"
     >
       <div className="modal-dialog">
         <div className="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">{headModal}</h5>
+          <div className="modal-header">
+            <h5 className="modal-title" id="exampleModalLabel">
+              {headModal}
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              onClick={handleClose}
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">{children}</div>
+          <div class="modal-footer">
+            <Button
+              type="button"
+              className="btn btn-secondary"
+              data-dismiss="modal"
+              onClick={handleClose}
+            >
+              Close
+            </Button>
+            <Button type="button" className="btn btn-info">
+              Save Changes
+            </Button>
           </div>
         </div>
       </div>
-      {/* {{children}
-        <Button
-          type="button"
-          className="btn btn-info"
-          onClick={handleClose}
-          href={``}
-        >
-          Close
-        </Button>} */}
     </div>
-    
   );
-}
+};
 
-export default Modal
+export default Modal;

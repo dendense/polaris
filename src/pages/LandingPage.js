@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Button from "elements/Button";
 
-import FrontPage from 'parts/FrontGrid'
-import IconText from 'parts/IconText';
-import Modal from 'elements/Modal'
+import FrontPage from "parts/FrontGrid";
+import IconText from "parts/IconText";
+import Modal from "elements/Modal";
 
-import dataGrid from 'json/homeData';
+import dataGrid from "json/homeData";
 
 export default class LandingPage extends Component {
   state = { show: false };
@@ -19,35 +19,48 @@ export default class LandingPage extends Component {
   render() {
     console.log(this.props);
     return (
-      <section className="container-grid">
-        <div className="login-container">
-          <div className="log-btn">
-            <Button
-              type="button"
-              className="btn btn-primary text-white"
-            >
-              Log In / Sign Up
-            </Button>
+      <>
+        <Modal
+          show={this.state.show}
+          handleClose={this.hideModal}
+          headModal="Sign Up"
+        >
+          <p>Ini Modal Login</p>
+        </Modal>
+        <section className="container-grid">
+          <div className="login-container">
+            <div className="log-btn">
+              <Button
+                type="button"
+                className="btn btn-primary text-black"
+                data-toggle="modal"
+                data-target="#staticBackdrop"
+                onClick={this.showModal}
+                href={``}
+              >
+                Log In / Sign Up
+              </Button>
+            </div>
           </div>
-        </div>
-        <div className="faq-container">
-          <div className="faq-btn">
-            <Button
-              type="button"
-              className="btn btn-warning text-black"
-              href={`/properties/`}
-            >
-              Terms &amp; Conditions
-            </Button>
+          <div className="faq-container">
+            <div className="faq-btn">
+              <Button
+                type="button"
+                className="btn btn-warning text-black"
+                href={`/pages/`}
+              >
+                Terms &amp; Conditions
+              </Button>
+            </div>
           </div>
-        </div>
-        <div className="icon-container">
-          <div className="icon-btn">
-            <IconText />
+          <div className="icon-container">
+            <div className="icon-btn">
+              <IconText />
+            </div>
           </div>
-        </div>
-        <FrontPage data={dataGrid.homePict} />
-      </section>
+          <FrontPage data={dataGrid.homePict} />
+        </section>
+      </>
     );
   }
 }
