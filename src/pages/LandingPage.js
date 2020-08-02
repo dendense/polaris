@@ -34,7 +34,7 @@ export default class LandingPage extends Component {
                 type="button"
                 className="btn btn-primary text-black"
                 data-toggle="modal"
-                data-target="#staticBackdrop"
+                data-target="#static"
                 onClick={this.showModal}
                 href={``}
               >

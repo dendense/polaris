@@ -8,10 +8,10 @@ const Modal = ({ handleClose, show, children, headModal }) => {
   return (
     <div
       className={showHideClassName}
-      id="exampleModal"
+      id="static"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="LoginModal"
       aria-hidden="true"
       data-backdrop="static"
       data-keyboard="false"
@@ -19,7 +19,7 @@ const Modal = ({ handleClose, show, children, headModal }) => {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title" id="exampleModalLabel">
+            <h5 className="modal-title" id="static">
               {headModal}
             </h5>
             <button

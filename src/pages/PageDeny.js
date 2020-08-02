@@ -4,6 +4,7 @@ import "./PageDeny.scss";
 export default class PageDeny extends Component {
   render() {
     let userName = <>Dafa</>;
+    userName = <>Asep</>;
     return (
       <>
         <div className="container">

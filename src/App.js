@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/" component={PageDeny}></Route>
+        <Route path="/" component={TestBlank}></Route>
       </Router>
     </div>
   );

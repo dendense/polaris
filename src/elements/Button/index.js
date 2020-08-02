@@ -1,21 +1,21 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import propTypes from 'prop-types'
+import React from "react";
+import { Link } from "react-router-dom";
+import propTypes from "prop-types";
 
 export default function Button(props) {
-  const className = [props.className]
-  if (props.isPrimary) className.push("btn-primary")
-  if (props.isLarge) className.push("btn-lg")
-  if (props.isSmall) className.push("btn-sm")
-  if (props.isBlock) className.push("btn-block")
-  if (props.hasShadow) className.push("btn-primary")
+  const className = [props.className];
+  if (props.isPrimary) className.push("btn-primary");
+  if (props.isLarge) className.push("btn-lg");
+  if (props.isSmall) className.push("btn-sm");
+  if (props.isBlock) className.push("btn-block");
+  if (props.hasShadow) className.push("btn-primary");
 
   const onClick = () => {
     if (props.onClick) props.onClick();
   };
 
   if (props.isDisabled || props.isLoading) {
-    if (props.isDisabled) className.push("disabled")
+    if (props.isDisabled) className.push("disabled");
     return (
       <span className={className.join(" ")} style={props.style}>
         {props.isLoading ? (
@@ -42,18 +42,18 @@ export default function Button(props) {
         >
           {props.children}
         </a>
-      )
+      );
     } else {
       return (
         <Link
           to={props.href}
           className={className.join(" ")}
-          style={props.style} 
+          style={props.style}
           onClick={onClick}
         >
           {props.children}
         </Link>
-      )
+      );
     }
   }
 
@@ -63,6 +63,7 @@ export default function Button(props) {
       className={className.join(" ")}
       style={props.style}
       onClick={onClick}
+      data-target={props.target}
     >
       {props.children}
     </button>
@@ -81,5 +82,5 @@ Button.propTypes = {
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
   isExternal: propTypes.bool,
-  hasHadow: propTypes.bool
-}
+  hasHadow: propTypes.bool,
+};
