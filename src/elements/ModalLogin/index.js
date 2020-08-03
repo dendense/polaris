@@ -10,7 +10,7 @@ const ModalTest = (props) => {
     <div>
       <Button
         type="button"
-        className="btn btn-info text-black"
+        className="btn btn-primary text-black"
         onClick={toggle}
       >
         {buttonLabel}

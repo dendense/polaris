@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Button from "elements/Button";
-import Modal from "elements/Modal";
-import ModalTest from "elements/ModalTest";
+import ModalLogin from "elements/ModalLogin";
 
 export default class TimeLine extends Component {
   state = { show: false };
@@ -15,10 +14,10 @@ export default class TimeLine extends Component {
     return (
       <div>
         <h1>Modal Button</h1>
-        <ModalTest
+        <ModalLogin
           buttonLabel="SignUp"
           className="modal-dialog-centered"
-        ></ModalTest>
+        ></ModalLogin>
       </div>
     );
   }

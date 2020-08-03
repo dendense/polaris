@@ -3,11 +3,12 @@ import Button from "elements/Button";
 
 import FrontPage from "parts/FrontGrid";
 import IconText from "parts/IconText";
-import Modal from "elements/Modal";
+import ModalLogin from "elements/ModalLogin";
 
 import dataGrid from "json/homeData";
 
 export default class LandingPage extends Component {
+  //Deklarasi Modal state (propsType : bool)
   state = { show: false };
   showModal = () => {
     this.setState({ show: true });
@@ -15,31 +16,19 @@ export default class LandingPage extends Component {
   hideModal = () => {
     this.setState({ show: false });
   };
+  //Deklarasi Modal state (propsType : bool)
 
   render() {
     console.log(this.props);
     return (
       <>
-        <Modal
-          show={this.state.show}
-          handleClose={this.hideModal}
-          headModal="Sign Up"
-        >
-          <p>Ini Modal Login</p>
-        </Modal>
         <section className="container-grid">
           <div className="login-container">
             <div className="log-btn">
-              <Button
-                type="button"
-                className="btn btn-primary text-black"
-                data-toggle="modal"
-                data-target="#static"
-                onClick={this.showModal}
-                href={``}
-              >
-                Log In / Sign Up
-              </Button>
+              <ModalLogin
+                buttonLabel="User Access"
+                className="modal-dialog-centered"
+              ></ModalLogin>
             </div>
           </div>
           <div className="faq-container">
