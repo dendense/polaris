@@ -56,7 +56,7 @@ export default function LoginTabs() {
                     type="email"
                     name="email"
                     id="exampleEmail"
-                    placeholder="insert your email"
+                    placeholder="Email"
                   />
                 </FormGroup>
                 <FormGroup>
@@ -65,7 +65,7 @@ export default function LoginTabs() {
                     type="password"
                     name="password"
                     id="examplePassword"
-                    placeholder="insert your password"
+                    placeholder="Password"
                   />
                 </FormGroup>
                 <Button
@@ -84,7 +84,44 @@ export default function LoginTabs() {
         <TabPane tabId="2">
           <Row>
             <Col sm="12">
-              <h4>Register Content</h4>
+              <Form>
+                <FormGroup>
+                  <Label for="exampleEmail">Email :</Label>
+                  <Input
+                    type="email"
+                    name="email"
+                    id="exampleEmail"
+                    placeholder="Email"
+                  />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="examplePassword">Password :</Label>
+                  <Input
+                    type="password"
+                    name="password"
+                    id="examplePassword"
+                    placeholder="Password"
+                  />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="examplePassword">Repeat Password :</Label>
+                  <Input
+                    type="password"
+                    name="password"
+                    id="examplePassword"
+                    placeholder="Repeat Password"
+                  />
+                </FormGroup>
+                <Button
+                  type="button"
+                  color="primary"
+                  size="md"
+                  block
+                  onClick={toggle}
+                >
+                  Register
+                </Button>
+              </Form>
             </Col>
           </Row>
         </TabPane>
