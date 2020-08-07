@@ -79,7 +79,7 @@
         padding: 15px;
         box-sizing: border-box;
         position: absolute;
-        z-index: 2;
+        z-index: 3;
 
         .log-btn {
             display: flex;
@@ -89,7 +89,7 @@
             color: $white;
 
             Button:hover {
-                color: $primary;
+                color: $white;
                 text-decoration: none;
             }
         }
@@ -102,7 +102,7 @@
         bottom: 0;
         box-sizing: border-box;
         position: absolute;
-        z-index: 3;
+        z-index: 2;
 
         .faq-btn {
             display: flex;
@@ -126,7 +126,7 @@
         position: fixed;
         box-sizing: border-box;
         position: absolute;
-        z-index: 4;
+        z-index: 2;
 
         .icon-btn {
             margin: auto;
