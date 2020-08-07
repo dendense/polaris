@@ -14,6 +14,7 @@
 @import "images";
 @import "code";
 @import "grid";
+@import "landing-grid"; //Grid untuk LandingPage "_landing-grid.scss"
 @import "tables";
 @import "forms";
 @import "buttons";
@@ -42,3 +43,21 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.brand-text-icon {
+    font-size: 5em;
+    font-weight: 400;
+    font-family: "Abel", sans-serif;
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+.img-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
