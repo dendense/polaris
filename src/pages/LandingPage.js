@@ -22,7 +22,7 @@ export default class LandingPage extends Component {
     console.log(this.props);
     return (
       <>
-        <section className="container-grid">
+        <section className="container-flex">
           <div className="login-container">
             <div className="log-btn">
               <ModalLogin
