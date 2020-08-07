@@ -6,7 +6,6 @@ import "./index.scss";
 export default function Text(props) {
   const {
     name,
-    value,
     prepend,
     append,
     type,
