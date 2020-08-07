@@ -5,6 +5,7 @@ import "assets/scss/style.scss";
 import LandingPage from "pages/LandingPage";
 import TestBlank from "pages/TestBlank";
 import VerificationPage from "pages/VerificationPage";
+import LoginTabs from "parts/LoginTabs";
 
 function App() {
   return (
