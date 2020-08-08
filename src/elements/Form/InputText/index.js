@@ -39,8 +39,29 @@ export default function Text(props) {
   };
 
   return (
-    <div>
-      <div></div>
+    <div className={["input-text mb-3", outerClassName].join(" ")}>
+      <div className="input-group">
+        {prepend && (
+          <div className="input-group-prepend bg-gray-900">
+            <span className="input-group-text">{prepend}</span>
+          </div>
+        )}
+        <input
+          name={name}
+          type={type}
+          pattern={pattern}
+          className={["form-control", inputClassName].join(" ")}
+          value={value}
+          placeholder={placeholder}
+          onChange={onChange}
+        />
+        {append && (
+          <div className="input-group-append bg-gray-900">
+            <span className="input-group-text">{append}</span>
+          </div>
+        )}
+      </div>
+      {HasError && <span className="error-helper">{HasError}</span>}
     </div>
   );
 }
