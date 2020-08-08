@@ -118,6 +118,7 @@ export default function LoginTabs() {
                   size="md"
                   block
                   onClick={toggle}
+                  href="/verification-page"
                 >
                   Register
                 </Button>
