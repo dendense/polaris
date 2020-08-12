@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100%;
+    align-items: stretch;
+}
+
+#left-sidebar {
+    min-width: 200px;
+    max-width: 2500px;
+    min-height: 100vh;
+}
+
+#left-sidebar.active {
+    margin-left: -200px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}

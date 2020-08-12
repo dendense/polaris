@@ -61,6 +61,7 @@ export default function Button(props) {
     <button
       to={props.href}
       className={className.join(" ")}
+      id={props.id}
       style={props.style}
       onClick={onClick}
       data-target={props.target}
