@@ -54,5 +54,15 @@
             "imgUrl": "/images/13.jpg",
             "grid": " grid-5"
         }
+    ],
+    "avatarImg": [
+        {
+            "_id": 1,
+            "avaImg": "/images/ava1.jpg"
+        },
+        {
+            "_id": 2,
+            "avaImg": "/images/ava2.jpg"
+        }
     ]
 }

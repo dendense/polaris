@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/" component={HeaderParts} />
+        <Route exact path="/" component={TimelinePage} />
         {/* <Route exact path="/" component={LandingPage} />
         <Route path="/verification-page" component={VerificationPage} /> */}
       </Router>
