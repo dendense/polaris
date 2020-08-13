@@ -1,22 +1,18 @@
 import React from "react";
+import Button from "elements/Button";
+
+import "./index.scss";
 
 export default function Sidebar(props) {
   return (
-    <nav>
-      <div>
+    <>
+      <div className="sidebar-header">
         <h3>POLARIS</h3>
       </div>
-      <ul>
+      <ul className="list-unstyled components">
         <li className="active">
-          <a
-            href="#timelineSubmenu"
-            data-toggle="collapse"
-            aria-expanded="false"
-            className="dropdown-toggle"
-          >
-            Timeline
-          </a>
-          <ul className="collapse list-unstyled" id="timelineSubmenu">
+          <a href="#timelineSubmenu">Timeline</a>
+          <ul className="" id="timelineSubmenu">
             <li>
               <a href="#">Latest</a>
             </li>
@@ -29,15 +25,8 @@ export default function Sidebar(props) {
           </ul>
         </li>
         <li>
-          <a
-            href="#filterSubmenu"
-            data-toggle="collapse"
-            aria-expanded="false"
-            className="dropdown-toggle"
-          >
-            Filter
-          </a>
-          <ul className="collapse list-unstyled" id="filterSubmenu">
+          <a href="#filterSubmenu">Filter</a>
+          <ul className="" id="filterSubmenu">
             <li>
               <a href="#">Category</a>
             </li>
@@ -47,6 +36,6 @@ export default function Sidebar(props) {
           </ul>
         </li>
       </ul>
-    </nav>
+    </>
   );
 }

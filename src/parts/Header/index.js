@@ -10,15 +10,17 @@ export default function Header(props) {
   const toggle = () => setPopoverOpen(!popoverOpen);
 
   return (
-    <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand text-white">
-        <i class="fas fa-bars"></i>
-      </a>
-      <span className="navbar-brand">
-        <IconText className="icontext-sm text-white" />
-      </span>
+    <nav className="navbar fixed-top navbar-dark bg-dark">
+      <div className="d-flex">
+        <button type="button" id="sidebarCollapse" className="btn mr-1">
+          <i className="fas fa-align-left text-white"></i>
+        </button>
+        <span className="navbar-brand">
+          <IconText className="icontext-sm text-white" />
+        </span>
+      </div>
       <div className="btn-group" role="group" aria-label="Right Header Panel">
-        <Button type="button" className="btn btn-sm">
+        <Button type="button" className="btn btn-sm" href="#">
           <img src="/images/ava1.jpg" alt="Avatar" className="avatar"></img>
         </Button>
         <Button type="button" className="btn btn-sm">
@@ -29,7 +31,7 @@ export default function Header(props) {
         </Button>
       </div>
       <UncontrolledPopover
-        trigger="focus"
+        trigger="legacy"
         placement="bottom"
         isOpen={popoverOpen}
         target="Popover1"
