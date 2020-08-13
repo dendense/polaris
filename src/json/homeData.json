@@ -55,14 +55,134 @@
             "grid": " grid-5"
         }
     ],
-    "avatarImg": [
+    "userDetails": [
         {
-            "_id": 1,
-            "avaImg": "/images/ava1.jpg"
+            "userId": 1,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/1.jpg"
+                }
+            ]
         },
         {
-            "_id": 2,
-            "avaImg": "/images/ava2.jpg"
+            "userId": 2,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/2.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 3,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/3.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 4,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/4.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 5,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/5.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 6,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/6.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 7,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/7.jpg"
+                }
+            ]
+        },
+        {
+            "userId": 8,
+            "avaImg": "/images/ava1.jpg",
+            "usermail": "dummy@email.com",
+            "userPost": [
+                {
+                    "locationPost": "Cirebon, Jawa Barat",
+                    "titlePost": "Summer Breeze",
+                    "descPost": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+                    "datePost": "02/10/2020",
+                    "likeCount": 238,
+                    "commentCount": 112,
+                    "imagePost": "/images/posts/8.jpg"
+                }
+            ]
         }
     ]
 }

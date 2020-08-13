@@ -11,8 +11,8 @@ export default function Sidebar(props) {
       </div>
       <ul className="list-unstyled components">
         <li className="active">
-          <a href="#timelineSubmenu">Timeline</a>
-          <ul className="" id="timelineSubmenu">
+          <a>Timeline</a>
+          <ul className="list-unstyled" id="timelineSubmenu">
             <li>
               <a href="#">Latest</a>
             </li>
@@ -28,8 +28,8 @@ export default function Sidebar(props) {
           </ul>
         </li>
         <li>
-          <a href="#filterSubmenu">Filter</a>
-          <ul className="" id="filterSubmenu">
+          <a>Filter</a>
+          <ul className="list-unstyled" id="filterSubmenu">
             <li>
               <a href="#">Category</a>
             </li>
@@ -37,6 +37,9 @@ export default function Sidebar(props) {
               <a href="#">Cities</a>
             </li>
           </ul>
+        </li>
+        <li>
+          <a>Contributor</a>
         </li>
       </ul>
     </>
