@@ -22,6 +22,9 @@ export default function Sidebar(props) {
             <li>
               <a href="#">Top</a>
             </li>
+            <li>
+              <a href="#">Top</a>
+            </li>
           </ul>
         </li>
         <li>
