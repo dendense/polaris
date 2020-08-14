@@ -10,7 +10,7 @@ export default function Header(props) {
   const toggle = () => setPopoverOpen(!popoverOpen);
 
   return (
-    <nav className="navbar fixed-top navbar-dark bg-dark">
+    <nav className="navbar navbar-dark bg-dark">
       <div className="d-flex">
         <button type="button" id="sidebarCollapse" className="btn mr-1">
           <i className="fas fa-align-left text-white"></i>

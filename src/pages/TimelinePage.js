@@ -4,16 +4,15 @@ import Header from "parts/Header";
 import Sidebar from "parts/Sidebar";
 import Main from "parts/Main";
 
+import timelineJson from "../json/homeData.json";
+
 export default class TimelinePage extends Component {
   render() {
     return (
       <div className="wrapper d-flex">
-        <nav className="bg-dark text-white" id="left-sidebar">
-          <Sidebar />
-        </nav>
-        <div id="right-content">
+        <div className="" id="right-content">
           <Header />
-          <Main />
+          <Main data={timelineJson.userDetails} />
         </div>
       </div>
     );

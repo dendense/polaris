@@ -15,7 +15,7 @@ export default class VerificationPage extends Component {
         <section className="d-flex vh-100 justify-content-center align-items-center">
           <div class="card text-center">
             <div class="card-header">
-              <IconText />
+              <IconText className="brand-text-icon" />
             </div>
             <div class="card-body">
               <h4>One Step Closer Into The Journey</h4>

@@ -1,6 +1,5 @@
 .wrapper {
     width: 100%;
-    align-items: stretch;
 }
 
 #left-sidebar {
@@ -21,9 +20,4 @@
     /* Disable horizontal scroll */
 }
 
-#right-content {
-    margin-top: 70px;
-    margin-left: 200px;
-    /* Same as the width of the sidebar */
-    padding: 0px 10px;
-}
+#right-content {}

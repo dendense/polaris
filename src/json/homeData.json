@@ -55,11 +55,12 @@
             "grid": " grid-5"
         }
     ],
-    "userDetails": [
+    "userdetails": [
         {
             "userId": 1,
+            "userName": "Dendense",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -74,8 +75,9 @@
         },
         {
             "userId": 2,
+            "userName": "CrisOkLoka",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -90,8 +92,9 @@
         },
         {
             "userId": 3,
+            "userName": "SakuMyao",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -106,8 +109,9 @@
         },
         {
             "userId": 4,
+            "userName": "Ytaiki48",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -122,8 +126,9 @@
         },
         {
             "userId": 5,
+            "userName": "HeavenlyBlush",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -138,8 +143,9 @@
         },
         {
             "userId": 6,
+            "userName": "Udin48",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -154,8 +160,9 @@
         },
         {
             "userId": 7,
+            "userName": "PrimaPictures",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
@@ -170,8 +177,9 @@
         },
         {
             "userId": 8,
+            "userName": "JinkPro",
             "avaImg": "/images/ava1.jpg",
-            "usermail": "dummy@email.com",
+            "userMail": "dummy@email.com",
             "userPost": [
                 {
                     "locationPost": "Cirebon, Jawa Barat",
