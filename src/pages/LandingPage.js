@@ -44,7 +44,7 @@ export default class LandingPage extends Component {
           </div>
           <div className="icon-container">
             <div className="icon-btn">
-              <IconText />
+              <IconText className="brand-text-icon" />
             </div>
           </div>
           <FrontPage data={dataGrid.homePict} />

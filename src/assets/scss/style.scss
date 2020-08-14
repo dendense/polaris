@@ -3,8 +3,9 @@
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+*/
 
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -15,6 +16,7 @@
 @import "code";
 @import "grid";
 @import "landing-grid"; //Grid untuk LandingPage "_landing-grid.scss"
+@import "timeline-style"; //Style untuk TimelinePage "_timeline-style.scss"
 @import "tables";
 @import "forms";
 @import "buttons";
@@ -44,6 +46,17 @@
 @import "utilities";
 @import "print";
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.icontext-sm {
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: "Abel", sans-serif;
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
 
 .brand-text-icon {
     font-size: 5em;

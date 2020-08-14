@@ -13,7 +13,7 @@ import {
   FormGroup,
 } from "reactstrap";
 
-const ModalTest = (props) => {
+const ModalLogin = (props) => {
   const { buttonLabel, className } = props;
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
@@ -45,4 +45,4 @@ const ModalTest = (props) => {
     </div>
   );
 };
-export default ModalTest;
+export default ModalLogin;
