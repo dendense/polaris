@@ -28,8 +28,11 @@ Untuk memulai pengembangan, diperlukan software utama dan penunjang agar para pe
 - Virtual Machine > **[VirtualBox](https://www.virtualbox.org/wiki/Downloads)** Dengan Linux Server (Opsional)
 
 ## Node Module Yang Digunakan (Sejauh Ini)
+
 - **react-router-dom**
 - **node-sass**
+- **reactstrap**
+- **fontawesome-core**
 
 ## Kontribusi
 

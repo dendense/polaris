@@ -6,12 +6,13 @@ import LandingPage from "pages/LandingPage";
 import TestBlank from "pages/TestBlank";
 import VerificationPage from "pages/VerificationPage";
 import LoginTabs from "parts/LoginTabs";
+import Timeline from "pages/TimelinePage";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route path="/" component={VerificationPage}></Route>
+        <Route path="/" component={LoginTabs}></Route>
       </Router>
     </div>
   );
