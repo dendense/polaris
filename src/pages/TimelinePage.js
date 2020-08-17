@@ -1,5 +1,4 @@
-import React from "react";
-import { Component } from "react";
+import React, { Component } from "react";
 import Header from "parts/Header";
 import Sidebar from "parts/Sidebar";
 import Main from "parts/Main";

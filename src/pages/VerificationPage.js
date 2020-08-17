@@ -38,11 +38,7 @@ export default class VerificationPage extends Component {
               </span>
             </div>
             <div className="card-footer">
-              <Button
-                type="button"
-                className="btn btn-primary"
-                href={`/pages/`}
-              >
+              <Button type="link" className="btn" href="/timeline" isPrimary>
                 Start My Journey!
               </Button>
             </div>

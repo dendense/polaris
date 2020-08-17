@@ -21,3 +21,45 @@
 }
 
 #right-content {}
+
+/*Ini SCSS Untuk DenyComponent*/
+#fullscreen {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#fullscreen-sm {
+    padding-left: 200px;
+    padding-right: 0;
+}
+
+.konten-kiri {
+    width: 200px;
+    height: 100%;
+}
+
+.konten-sidebar {
+    background-color: #434343;
+    color: #fff;
+    height: 100%;
+}
+
+.konten-header {}
+
+.konten-isi {
+    background-color: #fff;
+    height: 800px;
+    margin: 10px;
+}
+
+.timeline-deny {
+    height: 100vh;
+}
+
+.paling-bawah {
+    padding-top: 1200px;
+}
+
+.tengah-bang {
+    margin-top: 300px;
+}
