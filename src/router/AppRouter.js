@@ -6,12 +6,13 @@ import LandingPage from "pages/LandingPage";
 import VerificationPage from "pages/VerificationPage";
 import HeaderParts from "parts/Header";
 import TimelinePage from "pages/TimelinePage";
+import AnggaComponent from "pages/Angga";
 //VerificationPage Redirect to = PageSettings
 function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/" component={TimelinePage} />
+        <Route exact path="/" component={AnggaComponent} />
         {/* <Route path="/verification-page" component={VerificationPage} /> */}
       </Router>
     </div>
