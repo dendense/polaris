@@ -1,3 +1,35 @@
+#fullscreen {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#fullscreen-sm {
+    padding-right: 0;
+}
+
+.div-body {
+    background-color: gray;
+    height: 900px;
+}
+
+.konten-side {
+    width: 200px;
+    height: 100vh;
+}
+
+.konten-body {
+    padding-left: 200px;
+}
+
+.konten-bottom {
+    margin-top: 600px;
+}
+
+// Ini Codingan Original
 .row {
     height: 100%;
+}
+
+.left-sidebar {
+    height: 100vh;
 }
