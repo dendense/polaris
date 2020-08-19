@@ -9,7 +9,7 @@ export default class TimelinePage extends Component {
   render() {
     return (
       <div className="wrapper d-flex">
-        <div className="" id="right-content">
+        <div className="container-fluid" id="fullscreen">
           <Header />
           <Main data={timelineJson.userDetails} />
         </div>
