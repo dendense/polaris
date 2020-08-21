@@ -18,7 +18,7 @@ export default function Main({ data }) {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        <div class="card" style={{ width: "18rem" }}></div>
+        <div>This is Content</div>
       </Masonry>
     </div>
   );
