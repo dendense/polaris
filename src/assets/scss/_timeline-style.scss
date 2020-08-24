@@ -29,6 +29,8 @@
 
 #right-content {}
 
+/*Ini CSS Untuk Card Posts*/
+
 /*Ini SCSS Untuk DenyComponent*/
 #fullscreen {
     padding-left: 0;
@@ -49,6 +51,17 @@
     background-color: #434343;
     color: #fff;
     height: 100%;
+}
+
+.konten-tambah {
+    width: 800px;
+    height: 500px;
+    color: #fff;
+}
+
+#tambah-konten {
+    width: 600px;
+    height: 300px;
 }
 
 .konten-header {}
