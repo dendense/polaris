@@ -6,7 +6,7 @@ import LandingPage from "pages/LandingPage";
 import VerificationPage from "pages/VerificationPage";
 import HeaderParts from "parts/Header";
 import TimelinePage from "pages/TimelinePage";
-import AnggaComponent from "pages/angga";
+import AnggaComponent from "pages/Angga";
 //VerificationPage Redirect to = PageSettings
 function App() {
   return (
