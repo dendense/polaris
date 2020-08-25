@@ -15,7 +15,7 @@ export default class DenyComponent extends Component {
         {/* Ini Konten Kanan */}
         <div className="container-fluid konten-kanan" id="fullscreen-sm">
           {/* Disini akan dipanggil Header */}
-          <HeaderDeny />
+          <HeaderDeny JudulHeader="Ini Judul Website" />
           {/* Disini akan dipanggil Content */}
           <ContentDeny />
         </div>
