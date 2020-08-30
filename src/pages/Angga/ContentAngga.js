@@ -1,19 +1,27 @@
 import React, { Component } from "react";
 import Button from "elements/Button";
+import "./index.scss";
+import { Link } from "react-router-dom";
 
-import Foto1 from "./asset/image1.jpg";
+import Foto1 from "./asset/personal.svg";
 
 export default function ContentAngga(props) {
-  let LebarFoto = "300";
+  let LebarFoto = "657";
+  let TinggiFoto = "730";
+  let Paragraf =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
   return (
     <div className="div-body ">
-      <h1 className="text-white">BODY</h1>
-      <div className="card" style={{ width: "400px" }}>
+      <h1 className="text-white">
+        <br></br>
+      </h1>
+
+      <div className="card">
         <div className="card-body">
           <h4 className="card-title">Angga</h4>
-          <p className="card-text">Contoh teks untuk card.</p>
-          <Button type="link" href="/test" className="btn btn-danger">
-            See Profile
+          <p className="card-text">{Paragraf}</p>
+          <Button type="link" href="/Test" className="btn btn-danger">
+            Test Page
           </Button>
         </div>
 
@@ -22,14 +30,11 @@ export default function ContentAngga(props) {
           alt="ini foto background"
           src={Foto1}
           width={LebarFoto + "px"}
+          height={TinggiFoto + "px"}
         ></img>
       </div>
-      <div className="konten-bottom">
-        <span>Back to Top </span>
-        <a className="btn btn-primary" href="#top">
-          Click Here
-        </a>
-      </div>
+
+      {/*bottom content*/}
     </div>
   );
 }
