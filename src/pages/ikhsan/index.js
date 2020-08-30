@@ -9,7 +9,7 @@ export default class IkhsanComponent extends Component {
     return (
       <>
         <div className="container-fluid d-flex" id="fullscreen">
-          <div className="konten-side fixed-top">
+          <div className="konten-side fixed-top bg-dark">
             {/* sidebar */}
             <SidebarIkhsan />
           </div>
