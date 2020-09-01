@@ -2,10 +2,10 @@ import React from "react";
 
 export default function HeaderIkhsan(props) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand text-white">IKHSAN</a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+      <a className="navbar-brand text-white">IKHSAN</a>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
@@ -13,17 +13,17 @@ export default function HeaderIkhsan(props) {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link text-white" href="#">
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div className="navbar-nav">
+          <a className="nav-link text-white" href="#">
             ABOUT
           </a>
-          <a class="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="#">
             CONTACT
           </a>
-          <a class="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="#">
             BLOG
           </a>
         </div>
