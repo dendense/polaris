@@ -3,6 +3,7 @@ import "./index.scss";
 import SidebarIkhsan from "./SidebarIkhsan";
 import HeaderIkhsan from "./HeaderIkhsan";
 import BodyIkhsan from "./BodyIkhsan";
+import foto from "pages/ikhsan/1.jpg";
 
 export default class IkhsanComponent extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class IkhsanComponent extends Component {
         <div className="container-fluid d-flex" id="fullscreen">
           <div className="konten-side fixed-top bg-dark">
             {/* sidebar */}
-            <SidebarIkhsan />
+            <SidebarIkhsan foto={foto} />
           </div>
           <div className="container-fluid konten-body" id="fullscreen-sm">
             {/* Header */}

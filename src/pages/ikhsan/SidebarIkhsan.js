@@ -1,10 +1,9 @@
 import React from "react";
-import foto from "pages/ikhsan/1.jpg";
 
-export default function SidebarIkhsan() {
+export default function SidebarIkhsan(props) {
   return (
     <div className="div-side bg-dark">
-      <img src={foto} alt="1.jpg" width="200px"></img>
+      <img src={props.foto} alt="poto kastil" width="200px"></img>
     </div>
   );
 }
