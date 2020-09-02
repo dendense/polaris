@@ -3,7 +3,7 @@ import HeaderSaeful from "./HeaderSaeful";
 import SidebarSaeful from "./SidebarSaeful";
 import BodySaeful from "./BodySaeful";
 import "./index.scss";
-
+import fotopertama from "./po.jpg";
 export default class SaefulComponent extends Component {
   render() {
     return (
@@ -12,11 +12,11 @@ export default class SaefulComponent extends Component {
           {/* konten */}
           <div className="konten-side fixed-top">
             {/* sidebar */}
-            <HeaderSaeful judulheader="ini judul header" />
+            <SidebarSaeful foto={fotopertama} />
           </div>
           <div className="container-fluid konten-body" id="fullscreen-sm">
             {/* header */}
-            <SidebarSaeful />
+            <HeaderSaeful />
             {/* body */}
             <BodySaeful />
           </div>
