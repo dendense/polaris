@@ -7,7 +7,7 @@
   "mostPicked": [
     {
       "_id": "asd1293uasdads1",
-      "name": "Jung Hook Sie",
+      "name": "Asep Bagong",
       "type": "Apartment",
       "imageUrl": "/images/1.jpg",
       "country": "South Korea",
@@ -85,7 +85,6 @@
       "price": "80",
       "unit": "night"
     }
-    
   ],
   "categories": [
     {
