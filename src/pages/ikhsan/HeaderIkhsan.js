@@ -3,7 +3,7 @@ import React from "react";
 export default function HeaderIkhsan(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-      <a className="navbar-brand text-white">IKHSAN</a>
+      <a className="navbar-brand text-white">{props.judulHeader}</a>
       <button
         className="navbar-toggler"
         type="button"

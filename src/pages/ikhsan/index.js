@@ -16,7 +16,7 @@ export default class IkhsanComponent extends Component {
           </div>
           <div className="container-fluid konten-body" id="fullscreen-sm">
             {/* Header */}
-            <HeaderIkhsan />
+            <HeaderIkhsan judulHeader="IKHSAN" />
             {/* Body */}
             <BodyIkhsan />
           </div>
