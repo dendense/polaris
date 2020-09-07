@@ -16,7 +16,7 @@ export default class SaefulComponent extends Component {
           </div>
           <div className="container-fluid konten-body" id="fullscreen-sm">
             {/* header */}
-            <HeaderSaeful />
+            <HeaderSaeful judulHeader="SAEFUL" />
             {/* body */}
             <BodySaeful />
           </div>

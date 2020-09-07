@@ -5,10 +5,9 @@ import fotopertama from "./po.jpg";
 export default function HeaderSaeful(props) {
   return (
     <div className="konten-header bg-dark d-flex text-white">
-      <h1>Saeful</h1>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <a className="navbar-brand text-white" href="#">
-          ABOUT
+          <h2>{props.judulHeader}</h2>
         </a>
         <button
           className="navbar-toggler"
@@ -25,6 +24,11 @@ export default function HeaderSaeful(props) {
           <ul className="navbar-nav">
             <li className="nav-item active">
               <a className="nav-link text-white" href="#">
+                ABOUT <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item active">
+              <a className="nav-link text-white" href="#">
                 CONTACT <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -34,12 +38,7 @@ export default function HeaderSaeful(props) {
               </a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-              ></a>
+              <img src="https://google.com/pisang.png" alt="" />
             </li>
           </ul>
         </div>
