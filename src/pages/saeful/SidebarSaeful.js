@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "elements/Button";
-import fotopertama from "./po.jpg";
+import fotopertama from "assets/images/1.jpg";
 
 export default function SidebarSaeful(props) {
   return (

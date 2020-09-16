@@ -3,7 +3,10 @@ import HeaderSaeful from "./HeaderSaeful";
 import SidebarSaeful from "./SidebarSaeful";
 import BodySaeful from "./BodySaeful";
 import "./index.scss";
-import fotopertama from "./po.jpg";
+import fotopertama from "assets/images/1.jpg";
+
+import posts from "json/homeData";
+
 export default class SaefulComponent extends Component {
   render() {
     return (
@@ -18,7 +21,7 @@ export default class SaefulComponent extends Component {
             {/* header */}
             <HeaderSaeful judulHeader="SAEFUL" />
             {/* body */}
-            <BodySaeful />
+            <BodySaeful data={posts.DataPostSaeful} />
           </div>
         </div>
       </>
