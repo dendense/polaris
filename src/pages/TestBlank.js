@@ -5,10 +5,10 @@ const FotoGrid = (props) => {
   return (
     <div className="container mt-5">
       <div className="row">
-        {props.data.map((i) => {
+        {props.data.map((i, index) => {
           return (
             <div
-              key={`${i}`}
+              key={`${index}`}
               className="card"
               style={{ width: "18rem", marginRight: "1rem" }}
             >
@@ -23,15 +23,15 @@ const FotoGrid = (props) => {
                 <p style={{ marginBottom: "1rem" }}>
                   Posted by{" "}
                   <strong>
-                    <Button type="link">{i.userName}</Button>
+                    <Button type="link" href="#">
+                      {i.userName}
+                    </Button>
                   </strong>
                 </p>
-                <p className="card-text">
-                  {i.deskripsiPost}
-                  <p style={{ marginTop: "1rem" }}>Date : {i.datePost}</p>
-                  <p>
-                    {i.countComments} Comments | {i.countComments} Likes
-                  </p>
+                <p className="card-text">{i.deskripsiPost}</p>
+                <p style={{ marginTop: "1rem" }}>
+                  Date : {i.datePost}
+                  <br /> {i.countComments} Comments | {i.countComments} Likes
                 </p>
                 <a href="/test-page" className="btn btn-primary">
                   Go somewhere
