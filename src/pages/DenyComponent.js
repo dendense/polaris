@@ -3,6 +3,8 @@ import HeaderDeny from "./HeaderDeny";
 import ContentDeny from "./ContentDeny";
 import SidebarDeny from "./SidebarDeny";
 
+import posts from "json/homeData";
+
 export default class DenyComponent extends Component {
   render() {
     return (
@@ -17,7 +19,7 @@ export default class DenyComponent extends Component {
           {/* Disini akan dipanggil Header */}
           <HeaderDeny JudulHeader="Ini Judul Website" />
           {/* Disini akan dipanggil Content */}
-          <ContentDeny />
+          <ContentDeny data={posts.dataPostDeny} />
         </div>
       </div>
     );

@@ -55,10 +55,34 @@
             "grid": " grid-5"
         }
     ],
+    "dataPostDeny": [
+        {
+            "userId": 1,
+            "userName": "Odading",
+            "imagePost": "/images/posts/2.jpg",
+            "altPost": "Raja Ampat",
+            "judulPost": "Liburan Ke Raja Ampat",
+            "deskripsiPost": "Liburan ke Raja Ampat bersama keluarga, menghabiskan 5 hari menginap di villa bintang 5.",
+            "countLikes": 436,
+            "countComments": 122,
+            "datePost": "16/07/2020"
+        },
+        {
+            "userId": 2,
+            "userName": "RiceRoll",
+            "imagePost": "/images/posts/1.jpg",
+            "altPost": "Liburan Lombok",
+            "judulPost": "Liburan Ke Lombok",
+            "deskripsiPost": "Liburan ke Lombok bersama keluarga, menghabiskan 5 hari menginap di villa bintang 4.",
+            "countLikes": 671,
+            "countComments": 112,
+            "datePost": "10/09/2020"
+        }
+    ],
     "userdetails": [
         {
             "userId": 1,
-            "userName": "Dendense",
+            "userName": "SaefulA",
             "avaImg": "/images/ava1.jpg",
             "userMail": "dummy@email.com",
             "userPost": [
